@@ -1,0 +1,12 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+
+# Android
+android/gradle
+android/gradlew
+android/gradlew.bat

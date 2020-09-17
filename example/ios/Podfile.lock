@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - kd_scanner (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - kd_scanner (from `.symlinks/plugins/kd_scanner/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  kd_scanner:
+    :path: ".symlinks/plugins/kd_scanner/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  kd_scanner: dc286d4c396a144e189eb89c9bb447f206ae3785
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.8.4

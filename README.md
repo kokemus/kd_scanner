@@ -1,6 +1,6 @@
 # kd_scanner
 
-A Flutter plugin to scan barcodes and QR codes.
+A Flutter plugin for mobile devices to scan barcodes and QR codes.
 
 *Easy to use and fast to integrate.*
 
@@ -21,6 +21,8 @@ You must include [ZXing library](https://github.com/zxing-js/library) into your 
 ```
 <script src="https://unpkg.com/@zxing/library@latest"></script>
 ```
+
+Note! Run VSCode with sudo or simply ```flutter run -d chrome```.
 
 ### iOS
 
@@ -45,3 +47,10 @@ try {
     print(e);
 }
 ```
+
+## Supports
+
+* Android
+* iOS
+* Google Chrome for Android
+* Safari for iPhone

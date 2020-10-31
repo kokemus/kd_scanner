@@ -19,10 +19,10 @@ dependencies:
 You must include [ZXing library](https://github.com/zxing-js/library) into your index.html file to be able to use this plugin.
 
 ```
-<script src="https://unpkg.com/@zxing/library@latest"></script>
+<script src="https://unpkg.com/@zxing/library@0.17.0"></script>
 ```
 
-Note! Run VSCode with sudo or simply ```flutter run -d chrome```.
+Note! On macOS launch VSCode from command line [Visual Studio Code on macOS](https://code.visualstudio.com/docs/setup/mac).
 
 ### iOS
 

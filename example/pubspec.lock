@@ -8,6 +8,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.5.0-nullsafety.1"
+  barcode_scanner:
+    dependency: transitive
+    description:
+      path: "."
+      ref: "0.1.0"
+      resolved-ref: "19abd6502b36f5abd43e46796c29cb4fc9f48cf3"
+      url: "git://github.com/kokemus/barcode_scanner.git"
+    source: git
+    version: "0.1.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -85,7 +94,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.1.0"
   matcher:
     dependency: transitive
     description:

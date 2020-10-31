@@ -1,6 +1,6 @@
 name: kd_scanner
 description: A Flutter plugin for mobile devices to scan barcodes and QR codes.
-version: 0.0.1
+version: 0.1.0
 author:
 homepage:
 
@@ -14,7 +14,10 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter    
   plugin_platform_interface: ^1.0.2
-  js: ^0.6.2
+  barcode_scanner:
+    git:
+      url: git://github.com/kokemus/barcode_scanner.git
+      ref: 0.1.0
 
 dev_dependencies:
   flutter_test:
@@ -31,6 +34,3 @@ flutter:
       web:
         pluginClass: KdScannerPlugin
         fileName: kd_scanner_web.dart
-
-  assets:
-    - packages/kd_scanner/js/barcode_scanner.js

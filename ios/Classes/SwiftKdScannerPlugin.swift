@@ -81,7 +81,7 @@ class BarcodeScannerViewController: UIViewController, AVCaptureMetadataOutputObj
       captureSession.addOutput(metadataOutput)
 
       metadataOutput.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
-      metadataOutput.metadataObjectTypes = [.ean8, .ean13, .pdf417, .qr]
+      metadataOutput.metadataObjectTypes = [.code39, .code128, .ean13, .qr]
     } else {
       failed()
       return

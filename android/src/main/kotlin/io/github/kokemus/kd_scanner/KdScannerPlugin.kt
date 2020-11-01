@@ -59,7 +59,7 @@ public class KdScannerPlugin: FlutterPlugin, MethodCallHandler, ActivityAware, A
         .setCaptureActivity(CaptureActivity::class.java)
         .setPrompt("")
         .setOrientationLocked(false)
-        .initiateScan();
+        .initiateScan(mutableListOf("CODE_39", "CODE_128", "EAN_13", "QR_CODE"));
     } else {
       result.notImplemented()
     }
